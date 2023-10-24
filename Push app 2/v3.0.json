@@ -15,7 +15,7 @@
     "updatedAt": "2023-10-24T06:05:00.550Z",
     "editingVersion": {
       "id": "a41964c4-5f72-44df-b8be-2812f791743a",
-      "name": "v2.0",
+      "name": "v3.0",
       "definition": {
         "showViewerNavigation": true,
         "homePageId": "d9c21a0b-b0d6-48bb-846f-f6b8fda8bf1c",
@@ -497,7 +497,7 @@
       "appId": "78caf063-2289-449c-8aaa-85182050d10e",
       "currentEnvironmentId": "0017bc03-286e-4f0a-9142-2644d75b2a35",
       "createdAt": "2023-10-24T06:38:30.198Z",
-      "updatedAt": "2023-10-24T06:38:32.157Z"
+      "updatedAt": "2023-10-24T06:46:41.266Z"
     },
     "dataQueries": [],
     "dataSources": [
@@ -553,7 +553,7 @@
     "appVersions": [
       {
         "id": "a41964c4-5f72-44df-b8be-2812f791743a",
-        "name": "v2.0",
+        "name": "v3.0",
         "definition": {
           "showViewerNavigation": true,
           "homePageId": "d9c21a0b-b0d6-48bb-846f-f6b8fda8bf1c",
@@ -1035,7 +1035,7 @@
         "appId": "78caf063-2289-449c-8aaa-85182050d10e",
         "currentEnvironmentId": "0017bc03-286e-4f0a-9142-2644d75b2a35",
         "createdAt": "2023-10-24T06:38:30.198Z",
-        "updatedAt": "2023-10-24T06:38:32.157Z"
+        "updatedAt": "2023-10-24T06:46:41.266Z"
       }
     ],
     "appEnvironments": [
