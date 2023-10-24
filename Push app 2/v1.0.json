@@ -275,6 +275,209 @@
                   }
                 },
                 "withDefaultChildren": false
+              },
+              "2ff50d07-e444-4621-a817-7b196ed1a6e7": {
+                "component": {
+                  "properties": {
+                    "defaultValue": {
+                      "type": "code",
+                      "displayName": "Default value",
+                      "validation": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "format": {
+                      "type": "code",
+                      "displayName": "Format",
+                      "validation": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "enableTime": {
+                      "type": "toggle",
+                      "displayName": "Enable time selection?",
+                      "validation": {
+                        "schema": {
+                          "type": "boolean"
+                        },
+                        "defaultValue": false
+                      }
+                    },
+                    "enableDate": {
+                      "type": "toggle",
+                      "displayName": "Enable date selection?",
+                      "validation": {
+                        "schema": {
+                          "type": "boolean"
+                        },
+                        "defaultValue": true
+                      }
+                    },
+                    "disabledDates": {
+                      "type": "code",
+                      "displayName": "Disabled dates",
+                      "validation": {
+                        "schema": {
+                          "type": "array",
+                          "element": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "general": {
+                    "tooltip": {
+                      "type": "code",
+                      "displayName": "Tooltip",
+                      "validation": {
+                        "schema": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  },
+                  "others": {
+                    "showOnDesktop": {
+                      "type": "toggle",
+                      "displayName": "Show on desktop"
+                    },
+                    "showOnMobile": {
+                      "type": "toggle",
+                      "displayName": "Show on mobile"
+                    }
+                  },
+                  "events": {
+                    "onSelect": {
+                      "displayName": "On select"
+                    }
+                  },
+                  "styles": {
+                    "visibility": {
+                      "type": "toggle",
+                      "displayName": "Visibility",
+                      "validation": {
+                        "schema": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    "disabledState": {
+                      "type": "toggle",
+                      "displayName": "Disable",
+                      "validation": {
+                        "schema": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    "borderRadius": {
+                      "type": "code",
+                      "displayName": "Border radius",
+                      "validation": {
+                        "schema": {
+                          "type": "union",
+                          "schemas": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "number"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "validate": true,
+                  "generalStyles": {
+                    "boxShadow": {
+                      "type": "boxShadow",
+                      "displayName": "Box Shadow"
+                    }
+                  },
+                  "definition": {
+                    "others": {
+                      "showOnDesktop": {
+                        "value": "{{true}}"
+                      },
+                      "showOnMobile": {
+                        "value": "{{false}}"
+                      }
+                    },
+                    "events": [],
+                    "styles": {
+                      "visibility": {
+                        "value": "{{true}}"
+                      },
+                      "disabledState": {
+                        "value": "{{false}}"
+                      },
+                      "borderRadius": {
+                        "value": "{{0}}"
+                      }
+                    },
+                    "generalStyles": {
+                      "boxShadow": {
+                        "value": "0px 0px 0px 0px #00000040"
+                      }
+                    },
+                    "validation": {
+                      "customRule": {
+                        "value": null
+                      }
+                    },
+                    "properties": {
+                      "defaultValue": {
+                        "value": "01/01/2022"
+                      },
+                      "format": {
+                        "value": "DD/MM/YYYY"
+                      },
+                      "enableTime": {
+                        "value": "{{false}}"
+                      },
+                      "enableDate": {
+                        "value": "{{true}}"
+                      },
+                      "disabledDates": {
+                        "value": "{{[]}}"
+                      }
+                    },
+                    "general": {},
+                    "exposedVariables": {}
+                  },
+                  "name": "datepicker1",
+                  "displayName": "Date Picker",
+                  "description": "Choose date and time",
+                  "component": "Datepicker",
+                  "defaultSize": {
+                    "width": 5,
+                    "height": 30
+                  },
+                  "validation": {
+                    "customRule": {
+                      "type": "code",
+                      "displayName": "Custom validation"
+                    }
+                  },
+                  "exposedVariables": {
+                    "value": ""
+                  }
+                },
+                "layouts": {
+                  "desktop": {
+                    "top": 280,
+                    "left": 44.18604651162791,
+                    "width": 5,
+                    "height": 30
+                  }
+                },
+                "withDefaultChildren": false
               }
             },
             "handle": "home",
@@ -294,7 +497,7 @@
       "appId": "78caf063-2289-449c-8aaa-85182050d10e",
       "currentEnvironmentId": "0017bc03-286e-4f0a-9142-2644d75b2a35",
       "createdAt": "2023-10-24T06:05:00.581Z",
-      "updatedAt": "2023-10-24T06:07:39.198Z"
+      "updatedAt": "2023-10-24T06:08:59.484Z"
     },
     "dataQueries": [],
     "dataSources": [
@@ -610,6 +813,209 @@
                     }
                   },
                   "withDefaultChildren": false
+                },
+                "2ff50d07-e444-4621-a817-7b196ed1a6e7": {
+                  "component": {
+                    "properties": {
+                      "defaultValue": {
+                        "type": "code",
+                        "displayName": "Default value",
+                        "validation": {
+                          "schema": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "format": {
+                        "type": "code",
+                        "displayName": "Format",
+                        "validation": {
+                          "schema": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "enableTime": {
+                        "type": "toggle",
+                        "displayName": "Enable time selection?",
+                        "validation": {
+                          "schema": {
+                            "type": "boolean"
+                          },
+                          "defaultValue": false
+                        }
+                      },
+                      "enableDate": {
+                        "type": "toggle",
+                        "displayName": "Enable date selection?",
+                        "validation": {
+                          "schema": {
+                            "type": "boolean"
+                          },
+                          "defaultValue": true
+                        }
+                      },
+                      "disabledDates": {
+                        "type": "code",
+                        "displayName": "Disabled dates",
+                        "validation": {
+                          "schema": {
+                            "type": "array",
+                            "element": {
+                              "type": "string"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "general": {
+                      "tooltip": {
+                        "type": "code",
+                        "displayName": "Tooltip",
+                        "validation": {
+                          "schema": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    },
+                    "others": {
+                      "showOnDesktop": {
+                        "type": "toggle",
+                        "displayName": "Show on desktop"
+                      },
+                      "showOnMobile": {
+                        "type": "toggle",
+                        "displayName": "Show on mobile"
+                      }
+                    },
+                    "events": {
+                      "onSelect": {
+                        "displayName": "On select"
+                      }
+                    },
+                    "styles": {
+                      "visibility": {
+                        "type": "toggle",
+                        "displayName": "Visibility",
+                        "validation": {
+                          "schema": {
+                            "type": "boolean"
+                          }
+                        }
+                      },
+                      "disabledState": {
+                        "type": "toggle",
+                        "displayName": "Disable",
+                        "validation": {
+                          "schema": {
+                            "type": "boolean"
+                          }
+                        }
+                      },
+                      "borderRadius": {
+                        "type": "code",
+                        "displayName": "Border radius",
+                        "validation": {
+                          "schema": {
+                            "type": "union",
+                            "schemas": [
+                              {
+                                "type": "string"
+                              },
+                              {
+                                "type": "number"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    },
+                    "validate": true,
+                    "generalStyles": {
+                      "boxShadow": {
+                        "type": "boxShadow",
+                        "displayName": "Box Shadow"
+                      }
+                    },
+                    "definition": {
+                      "others": {
+                        "showOnDesktop": {
+                          "value": "{{true}}"
+                        },
+                        "showOnMobile": {
+                          "value": "{{false}}"
+                        }
+                      },
+                      "events": [],
+                      "styles": {
+                        "visibility": {
+                          "value": "{{true}}"
+                        },
+                        "disabledState": {
+                          "value": "{{false}}"
+                        },
+                        "borderRadius": {
+                          "value": "{{0}}"
+                        }
+                      },
+                      "generalStyles": {
+                        "boxShadow": {
+                          "value": "0px 0px 0px 0px #00000040"
+                        }
+                      },
+                      "validation": {
+                        "customRule": {
+                          "value": null
+                        }
+                      },
+                      "properties": {
+                        "defaultValue": {
+                          "value": "01/01/2022"
+                        },
+                        "format": {
+                          "value": "DD/MM/YYYY"
+                        },
+                        "enableTime": {
+                          "value": "{{false}}"
+                        },
+                        "enableDate": {
+                          "value": "{{true}}"
+                        },
+                        "disabledDates": {
+                          "value": "{{[]}}"
+                        }
+                      },
+                      "general": {},
+                      "exposedVariables": {}
+                    },
+                    "name": "datepicker1",
+                    "displayName": "Date Picker",
+                    "description": "Choose date and time",
+                    "component": "Datepicker",
+                    "defaultSize": {
+                      "width": 5,
+                      "height": 30
+                    },
+                    "validation": {
+                      "customRule": {
+                        "type": "code",
+                        "displayName": "Custom validation"
+                      }
+                    },
+                    "exposedVariables": {
+                      "value": ""
+                    }
+                  },
+                  "layouts": {
+                    "desktop": {
+                      "top": 280,
+                      "left": 44.18604651162791,
+                      "width": 5,
+                      "height": 30
+                    }
+                  },
+                  "withDefaultChildren": false
                 }
               },
               "handle": "home",
@@ -629,7 +1035,7 @@
         "appId": "78caf063-2289-449c-8aaa-85182050d10e",
         "currentEnvironmentId": "0017bc03-286e-4f0a-9142-2644d75b2a35",
         "createdAt": "2023-10-24T06:05:00.581Z",
-        "updatedAt": "2023-10-24T06:07:39.198Z"
+        "updatedAt": "2023-10-24T06:08:59.484Z"
       }
     ],
     "appEnvironments": [
