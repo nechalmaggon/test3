@@ -2,7 +2,7 @@
   "appV2": {
     "id": "b6a7d877-5deb-4a56-8786-43c2d45ecffc",
     "type": "front-end",
-    "name": "Pull app",
+    "name": "Push app",
     "slug": "b6a7d877-5deb-4a56-8786-43c2d45ecffc",
     "isPublic": null,
     "isMaintenanceOn": false,
@@ -12,7 +12,7 @@
     "userId": "9931aea6-3396-4ff9-a15c-b60b5a970b9d",
     "createdAt": "2023-10-24T06:15:09.234Z",
     "creationMode": "DEFAULT",
-    "updatedAt": "2023-10-24T06:15:09.229Z",
+    "updatedAt": "2023-10-24T06:15:33.467Z",
     "editingVersion": {
       "id": "4f2db1e3-b1ac-450a-9701-80159fa2053d",
       "name": "v1",
